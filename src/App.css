@@ -1,0 +1,58 @@
+.split{
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left{
+  left: 0;
+  background-color: #cecece;
+  }
+
+.left[data-theme='light'] {
+  --background-color: var(--left-background);
+}
+
+.button[data-theme='light']{
+  background-color: #cc0000 ;
+  color: white;
+}
+
+.left textarea[data-theme='light']{
+  color:#2f4f4f;
+}
+
+.left[data-theme='dark'] {
+  background-color: var(--left-background) ;
+}
+
+.button[data-theme='dark']{
+  background-color: #f0f8ff ;
+  color: #800080;
+}
+
+.left textarea[data-theme='dark']{
+  color:#696969;
+}
+
+.right{
+  right: 0;
+  background-color: white;
+}
+
+.right[data-theme='light'] {
+  --background-color: var(--right-background) ;
+ }
+
+ 
+
+.right[data-theme='dark'] {
+  background-color:var(--right-background);
+}
+
+
+
